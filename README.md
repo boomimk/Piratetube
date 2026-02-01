@@ -1,2 +1,8 @@
 # Piratetube
-Install any video from Youtube to your Pc
+Download any video or playlist from Youtube to your Pc(this is a very barebones version updates will come soon).
+You can change what file the video goes to here:
+
+# Create PYT folder on Desktop
+DESKTOP_PATH = Path.home() / "Desktop"
+PYT_FOLDER = DESKTOP_PATH / "PYT"
+PYT_FOLDER.mkdir(exist_ok=True)
