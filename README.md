@@ -1,43 +1,5 @@
 PirateTube
 
-PirateTube is a simple Python script that lets you download YouTube videos.
-
-What it does
-
-Download videos from YouTube
-
-Choose the quality before downloading
-
-Saves the video to your Downloads folder
-
-How to run
-
-Make sure you have:
-
-Python installed
-
-FFmpeg installed
-
-Install the required library:
-
-pip install yt-dlp
-
-
-Run the script:
-
-python Piratetube.py
-
-
-Paste a YouTube link when asked and choose quality.
-
-That's it 🙂
-
-okay thats a littile to lifeless
-
-Alright, let’s give it a bit of personality without turning it into emoji chaos 😄
-
-PirateTube
-
 PirateTube is a small Python script that lets you download YouTube videos straight to your computer.
 
 No websites.
