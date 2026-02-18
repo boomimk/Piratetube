@@ -26,10 +26,6 @@ Make sure you have **Python** and **FFmpeg** installed.
 
 Install everything from the requirements file:
 
-```bash
-pip install -r Requirements.txt
-```
-
 Create a folder named:
 
 ```
