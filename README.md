@@ -1,112 +1,71 @@
-# 🎬 PirateTube - YouTube Downloader
+PirateTube
 
-A Docker-based YouTube video downloader with an interactive terminal interface.
+PirateTube is a simple Python script that lets you download YouTube videos.
 
-## ✨ Features
+What it does
 
-- 🎥 Download YouTube videos in multiple qualities
-- 🎵 AAC audio encoding for universal compatibility
-- 📊 Interactive quality selection
-- 🚀 Progress bar with download speed and ETA
-- 🐳 Runs in Docker - no Python setup required!
+Download videos from YouTube
 
-## 🚀 Quick Start (Docker)
+Choose the quality before downloading
 
-### Prerequisites
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+Saves the video to your Downloads folder
 
-### Run with ONE Command
+How to run
 
-**Windows (PowerShell):**
-```powershell
-docker run -it --rm -v C:\Users\$env:USERNAME\Downloads:/downloads yourusername/piratetube
-```
+Make sure you have:
 
-**Mac/Linux:**
-```bash
-docker run -it --rm -v ~/Downloads:/downloads yourusername/piratetube
-```
+Python installed
 
-That's it! Videos will be saved to your Downloads folder.
+FFmpeg installed
 
-## 📖 Usage
+Install the required library:
 
-1. Run the command above
-2. Paste a YouTube URL when prompted
-3. Choose video quality (or press Enter for best quality)
-4. Wait for download to complete
-5. Find your video in Downloads folder
-6. Type `q` to quit
+pip install yt-dlp
 
-## 🛠️ Build From Source
 
-If you want to build the Docker image yourself:
+Run the script:
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/piratetube.git
-cd piratetube
+python Piratetube.py
 
-# Build the Docker image
-docker build -t piratetube .
 
-# Run it
-docker run -it --rm -v ~/Downloads:/downloads piratetube
-```
+Paste a YouTube link when asked and choose quality.
 
-## 📋 What's Included
+That's it 🙂
 
-- **Piratetube-Docker.py** - Main Python script
-- **Dockerfile** - Docker configuration
-- **requirements.txt** - Python dependencies
+okay thats a littile to lifeless
 
-## 🔧 Manual Installation (Without Docker)
+Alright, let’s give it a bit of personality without turning it into emoji chaos 😄
 
-If you prefer to run without Docker:
+PirateTube
 
-1. Install Python 3.12+
-2. Install FFmpeg
-3. Install dependencies:
-   ```bash
-   pip install yt-dlp
-   ```
-4. Run the script:
-   ```bash
-   python Piratetube-Docker.py
-   ```
+PirateTube is a small Python script that lets you download YouTube videos straight to your computer.
 
-## 🐛 Troubleshooting
+No websites.
+No weird converters.
+Just run it and grab what you need.
 
-**Problem: "docker: command not found"**
-- Install Docker Desktop from https://www.docker.com/products/docker-desktop/
+What it does
 
-**Problem: "Cannot connect to Docker daemon"**
-- Make sure Docker Desktop is running
+Downloads YouTube videos
 
-**Problem: Videos not in Downloads folder**
-- Make sure you used the `-v` flag in the command
+Lets you pick the quality
 
-**Problem: Want to rebuild after code changes**
-```bash
-docker pull yourusername/piratetube:latest
-```
+Saves them to your Downloads folder
 
-## 📝 License
+How to run it
 
-MIT License - feel free to use and modify!
+Make sure you have Python and FFmpeg installed
 
-## ⚠️ Disclaimer
+Install the only thing it needs:
 
-This tool is for personal use only. Please respect YouTube's Terms of Service and copyright laws.
+pip install yt-dlp
 
-## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first.
+Run the script:
 
-## 📞 Support
+python Piratetube.py
 
-If you encounter any issues, please open an issue on GitHub.
 
----
+Paste the YouTube link when asked
 
-Made with ❤️ for easy video downloads
+Pick a quality (or press Enter for best)
