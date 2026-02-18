@@ -1,4 +1,4 @@
-Nice — add it like this so it feels natural:
+Perfect — here’s the updated README with that included 👇
 
 ---
 
@@ -24,10 +24,10 @@ Just run it and grab what you need.
 
 Make sure you have **Python** and **FFmpeg** installed.
 
-Install the only thing it needs:
+Install everything from the requirements file:
 
 ```bash
-pip install yt-dlp
+pip install -r Requirements.txt
 ```
 
 Create a folder named:
