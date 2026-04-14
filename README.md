@@ -2,17 +2,21 @@
   <h1 align="center">🎬 PirateTube</h1>
   <p align="center">A simple, no-nonsense YouTube video downloader for Windows</p>
   <p align="center">
-    <img src="https://img.shields.io/github/downloads/boomimk/PirateTube/total?style=for-the-badge&color=blue" />
-    <img src="https://img.shields.io/github/v/release/boomimk/PirateTube?style=for-the-badge&color=green" />
     <img src="https://img.shields.io/badge/platform-Windows-informational?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge" />
   </p>
 </p>
 
 ---
 
-## ⬇️ Download
+## 🚀 Getting Started
 
-👉 **[Download the latest PirateTube.exe](../../releases/latest)**
+To use PirateTube, you will need to download the project files and run the automatic builder:
+
+1. **Download the Project:** Click the green **Code** button at the top of this page and select **Download ZIP** (or clone the repo).
+2. **Extract:** Unzip the files to a folder on your computer.
+3. [cite_start]**Run the Builder:** Double-click `build.bat`.
+4. **Start Downloading:** Once the build is finished, your app will be ready to use!
 
 ---
 
@@ -26,44 +30,11 @@
 
 ---
 
-## 🚀 How to Use
-
-1. Download `PirateTube.exe` from the [Releases](../../releases/latest) page
-2. Double-click it (or run it from CMD)
-3. Paste a YouTube URL
-4. Pick your quality
-5. Done — video saves to your Downloads folder!
-
----
-
-## 🐳 Docker
-
-If you prefer Docker:
-
-```bash
-git clone https://github.com/boomimk/PirateTube.git
-cd PirateTube
-docker compose run --rm piratetube
-```
-
----
-
 ## 🔨 Build it Yourself
 
+If you prefer using the command line:
+
 ```bash
-git clone https://github.com/boomimk/PirateTube.git
+git clone [https://github.com/boomimk/PirateTube.git](https://github.com/boomimk/PirateTube.git)
 cd PirateTube
 build.bat
-```
-
-The `.exe` will appear in the `dist/` folder.
-
----
-
-## ⚠️ Disclaimer
-
-This tool is intended for personal use only. Only download content you have the right to download. Respect copyright laws in your country wink.
-
----
-
-<p align="center">Made with ❤️ — starring <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> & FFmpeg</p>
