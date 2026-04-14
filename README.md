@@ -28,6 +28,6 @@ if you are having truble you can just download the python file and run only that
 If you prefer using the command line:
 
 ```bash
-git clone [https://github.com/boomimk/PirateTube.git](https://github.com/boomimk/PirateTube.git)
+git clone https://github.com/boomimk/PirateTube.git
 cd PirateTube
 build.bat
