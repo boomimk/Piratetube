@@ -30,16 +30,6 @@ ONLY WORKS ON WINDOWS FOR NOW.
 
 ---
 
-## 🔨 Build it Yourself
-
-```bash
-cls
-cd PirateTube
-build.bat
-```
-
----
-
 ## 🐳 Use with Docker
 
 PirateTube can also be run in a Docker container for a consistent environment across systems.
@@ -55,7 +45,7 @@ This will:
 - Mount your **Downloads** folder to the container
 - Run PirateTube in interactive mode
 
-### Manual Docker Build
+### 🔨 Manual Docker Build
 
 If you prefer to build and run manually:
 
