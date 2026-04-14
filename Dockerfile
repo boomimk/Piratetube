@@ -10,8 +10,8 @@ RUN pip install --no-cache-dir yt-dlp
 RUN mkdir /downloads
 
 # Copy the script
-COPY Piratetube-Docker.py /app/Piratetube-Docker.py
+COPY Piratetube.py /app/Piratetube.py
 
 WORKDIR /app
 
-CMD ["python", "Piratetube-Docker.py"]
+CMD ["python", "Piratetube.py"]
