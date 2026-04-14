@@ -1,0 +1,35 @@
+name: Build PirateTube.exe
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller yt-dlp
+
+      - name: Build .exe
+        run: |
+          pyinstaller --onefile --name PirateTube --icon=icon.ico Piratetube-Docker.py
+        continue-on-error: false
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/PirateTube.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

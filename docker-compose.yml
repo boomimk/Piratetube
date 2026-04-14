@@ -1,0 +1,7 @@
+services:
+  piratetube:
+    build: .
+    volumes:
+      - ~/Downloads:/downloads
+    stdin_open: true
+    tty: true
