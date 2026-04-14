@@ -1,7 +1,3 @@
-Perfect — here’s the updated README with that included 👇
-
----
-
 # PirateTube
 
 PirateTube is a small Python script that lets you download YouTube videos straight to your computer.
