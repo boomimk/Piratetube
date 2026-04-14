@@ -2,8 +2,8 @@
   <h1 align="center">🎬 PirateTube</h1>
   <p align="center">A simple, no-nonsense YouTube video downloader for Windows</p>
   <p align="center">
-    <img src="https://img.shields.io/github/downloads/YOURNAME/PirateTube/total?style=for-the-badge&color=blue" />
-    <img src="https://img.shields.io/github/v/release/YOURNAME/PirateTube?style=for-the-badge&color=green" />
+    <img src="https://img.shields.io/github/downloads/boomimk/PirateTube/total?style=for-the-badge&color=blue" />
+    <img src="https://img.shields.io/github/v/release/boomimk/PirateTube?style=for-the-badge&color=green" />
     <img src="https://img.shields.io/badge/platform-Windows-informational?style=for-the-badge" />
   </p>
 </p>
@@ -43,7 +43,7 @@ No Python. No Docker. No setup. Just download and run.
 If you prefer Docker:
 
 ```bash
-git clone https://github.com/YOURNAME/PirateTube.git
+git clone https://github.com/boomimk/PirateTube.git
 cd PirateTube
 docker compose run --rm piratetube
 ```
@@ -53,7 +53,7 @@ docker compose run --rm piratetube
 ## 🔨 Build it Yourself
 
 ```bash
-git clone https://github.com/YOURNAME/PirateTube.git
+git clone https://github.com/boomimk/PirateTube.git
 cd PirateTube
 build.bat
 ```
@@ -64,7 +64,7 @@ The `.exe` will appear in the `dist/` folder.
 
 ## ⚠️ Disclaimer
 
-This tool is intended for personal use only. Only download content you have the right to download. Respect copyright laws in your country.
+This tool is intended for personal use only. Only download content you have the right to download. Respect copyright laws in your country wink.
 
 ---
 
