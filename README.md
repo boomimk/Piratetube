@@ -1,49 +1,71 @@
-# PirateTube
-
-PirateTube is a small Python script that lets you download YouTube videos straight to your computer.
-
-No websites.
-No weird converters.
-Just run it and grab what you need.
-
----
-
-## What it does
-
-* Downloads YouTube videos
-* Lets you pick the quality
-* Saves them to your Desktop
+<p align="center">
+  <h1 align="center">🎬 PirateTube</h1>
+  <p align="center">A simple, no-nonsense YouTube video downloader for Windows</p>
+  <p align="center">
+    <img src="https://img.shields.io/github/downloads/YOURNAME/PirateTube/total?style=for-the-badge&color=blue" />
+    <img src="https://img.shields.io/github/v/release/YOURNAME/PirateTube?style=for-the-badge&color=green" />
+    <img src="https://img.shields.io/badge/platform-Windows-informational?style=for-the-badge" />
+  </p>
+</p>
 
 ---
 
-## Setup (one-time)
+## ⬇️ Download
 
-Make sure you have **Python** and **FFmpeg** installed.
+👉 **[Download the latest PirateTube.exe](../../releases/latest)**
 
-Install everything from the requirements file:
-
-Create a folder named:
-
-```
-PYT
-```
-
-on your **Desktop**.
-
-> The script downloads videos into this folder.
-> You can change this inside the script if you want them saved somewhere else.
+No Python. No Docker. No setup. Just download and run.
 
 ---
 
-## How to run it
+## ✨ Features
+
+- 🎥 Download videos in any available resolution (4K, 1080p, 720p, and more)
+- 🔊 Audio automatically encoded to AAC 192kbps for universal compatibility
+- 📊 Shows file size estimates before you download
+- 💾 Saves directly to your **Downloads** folder
+- 🖥️ Clean, colorful terminal interface
+
+---
+
+## 🚀 How to Use
+
+1. Download `PirateTube.exe` from the [Releases](../../releases/latest) page
+2. Double-click it (or run it from CMD)
+3. Paste a YouTube URL
+4. Pick your quality
+5. Done — video saves to your Downloads folder!
+
+---
+
+## 🐳 Docker (Advanced)
+
+If you prefer Docker:
 
 ```bash
-python Piratetube.py
+git clone https://github.com/YOURNAME/PirateTube.git
+cd PirateTube
+docker compose run --rm piratetube
 ```
 
-Then:
+---
 
-1. Paste the YouTube link
-2. Pick a quality (or press Enter for best)
+## 🔨 Build it Yourself
 
-Done 👍
+```bash
+git clone https://github.com/YOURNAME/PirateTube.git
+cd PirateTube
+build.bat
+```
+
+The `.exe` will appear in the `dist/` folder.
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is intended for personal use only. Only download content you have the right to download. Respect copyright laws in your country.
+
+---
+
+<p align="center">Made with ❤️ — starring <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> & FFmpeg</p>
