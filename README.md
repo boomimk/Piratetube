@@ -14,8 +14,6 @@
 
 👉 **[Download the latest PirateTube.exe](../../releases/latest)**
 
-No Python. No Docker. No setup. Just download and run.
-
 ---
 
 ## ✨ Features
@@ -38,7 +36,7 @@ No Python. No Docker. No setup. Just download and run.
 
 ---
 
-## 🐳 Docker (Advanced)
+## 🐳 Docker
 
 If you prefer Docker:
 
