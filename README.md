@@ -9,14 +9,7 @@
 
 ---
 
-## 🚀 Getting Started
-
-To use PirateTube, you will need to download the project files and run the automatic builder:
-
-1. **Download the Project:** Click the green **Code** button at the top of this page and select **Download ZIP** (or clone the repo).
-2. **Extract:** Unzip the files to a folder on your computer.
-3. [cite_start]**Run the Builder:** Double-click `build.bat`.
-4. **Start Downloading:** Once the build is finished, your app will be ready to use!
+if you are having truble you can just download the python file and run only that and it will work.
 
 ---
 
